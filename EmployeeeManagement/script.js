@@ -57,8 +57,7 @@
       }
       // Select Employee Logic - END
   
-      // Employee Delete Logic - START
-      debugger;
+      // Employee Delete Logic - STAR
       if (e.target.tagName === "I") {
         employees = employees.filter(
           (emp) => String(emp.id) !== e.target.parentNode.id
